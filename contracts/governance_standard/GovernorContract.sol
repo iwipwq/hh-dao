@@ -21,7 +21,7 @@ contract GovernorContract is
     constructor(
         IVotes _token,
         TimelockController _timelock,
-        uint256 _votingDelay
+        uint256 _votingDelay,
         uint256 _votingPeriod,
         uint256 _quorumPercentage
     )
